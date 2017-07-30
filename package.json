@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon server/server.js",
     "test": "mocha utils/tests/*.test.js",
     "test-watch": "nodemon --exec \"npm test\""
   },
@@ -13,7 +14,8 @@
   "devDependencies": {
     "expect": "^1.20.2",
     "expect.js": "^0.3.1",
-    "mocha": "^3.4.2"
+    "mocha": "^3.4.2",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "express": "^4.15.3"
